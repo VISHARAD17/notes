@@ -31,8 +31,10 @@ int lcs(string s1, string s2){
 
     vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
 
-    // if size of array is 0 then lcs if 0 base case
-    // base case - first row all 0 and first col all 0
+    /* 
+     * if size of array is 0 then lcs if 0 base casebase
+     * base case - first row all 0 and first col all 0 
+     * */
     for(int i=0; i<=n; i++) dp[i][0]= 0; // 1st col 0
     for(int j=0; j<=m; j++) dp[0][j] = 0; // 1st row 0
     
