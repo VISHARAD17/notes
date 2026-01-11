@@ -32,9 +32,9 @@ Class Solution(){
 ## 2. 0/1 Kanpsack Problem
 
 #### Problem: 
-    Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
+Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack.
 #### Explanation:
-    Exaplnation: For each item, we have two choices, either to include the item in the knapsack or exclude it. We choose the option that gives us the maximum value without exceeding the weight capacity of the knapsack.
+Exaplnation: For each item, we have two choices, either to include the item in the knapsack or exclude it. We choose the option that gives us the maximum value without exceeding the weight capacity of the knapsack.
 
 
 ```java
